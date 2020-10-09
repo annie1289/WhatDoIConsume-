@@ -10,13 +10,12 @@ My project is a tracker of your media habits. How many books did you read this y
 
 ## Wireframes
 
-Tablet Version -- https://www.canva.com/design/DAEKFXNjc0I/share/preview?token=Ig0uwqzfVAKu3eygBsBMNQ&role=EDITOR&utm_content=DAEKFXNjc0I&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
-
+Tablet Version -- https://www.canva.com/design/DAEKFXNjc0I/SN05RqNkEaTPtpyIplwDhA/view?utm_content=DAEKFXNjc0I&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
 Mobile Version -- https://www.canva.com/design/DAEKFVcs5Ns/9imcfJyQsbLUHCwIVx2VQQ/view?utm_content=DAEKFVcs5Ns&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
 
-Web Version -- https://www.canva.com/design/DAEKFRDkAiQ/share/preview?token=Jb4U7HWREncnUgX7J6d9bA&role=EDITOR&utm_content=DAEKFRDkAiQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+Web Version -- https://www.canva.com/design/DAEKFRDkAiQ/xwoEhZVbK3OH_lgRyZK16g/view?utm_content=DAEKFRDkAiQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
 ## Component Hierarchy
  A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
@@ -129,4 +128,4 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ### Opportunities: Have a lot of learning/growth in terms of learning React as a whole and components. Excited to get more familiar with this! 
 
-### Threats: Will need to stay focused, reach out for help when needed, and 
+### Threats: Will need to stay focused + reach out for help when needed.
