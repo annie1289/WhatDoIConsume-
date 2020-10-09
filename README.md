@@ -20,7 +20,7 @@ Web Version -- https://www.canva.com/design/DAEKFRDkAiQ/share/preview?token=Jb4U
 
 ## Component Hierarchy
  A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
- 
+ ```
        App.js
       /        \
 App.cs          Components
@@ -29,7 +29,7 @@ App.cs          Components
        /     /      \     \           \
   Book   Movie    TV Show Other      To-do List   
 
-
+```
 ## API and Data Sample
 I will be using Airtable to store information on the books, tv shows, movies, etc. that people have watched/read/listened to. This data will then be rendered on another page.
 ```
