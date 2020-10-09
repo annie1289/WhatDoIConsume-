@@ -2,22 +2,35 @@
 
 ## Project Name
 
-The name of your project.
+What Do I Consume?
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+My project is a tracker of your media habits. How many books did you read this year and what was your most popular genre of books? Forget what that tv show you watched 4 months ago and loved was called? The What Do I Consume app will track all of this. You can add entries for all these different types of media that you have consumed and also add to a list of to-read/to-watch/to-listen to keep track of what you still want to look at.
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+Tablet Version -- https://www.canva.com/design/DAEKFXNjc0I/share/preview?token=Ig0uwqzfVAKu3eygBsBMNQ&role=EDITOR&utm_content=DAEKFXNjc0I&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+Mobile Version -- https://www.canva.com/design/DAEKFVcs5Ns/9imcfJyQsbLUHCwIVx2VQQ/view?utm_content=DAEKFVcs5Ns&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
+Web Version - https://www.canva.com/design/DAEKFRDkAiQ/share/preview?token=Jb4U7HWREncnUgX7J6d9bA&role=EDITOR&utm_content=DAEKFRDkAiQ&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
 ## Component Hierarchy
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+ A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
+ 
+ App.js
+ -App.cs
+ -Components
+    -Media Input
+      -Book
+      -Movie
+      -TV Show
+      -Other
+    -Dashboard
+      -To-do List 
 
 ## API and Data Sample
+I will be using Airtable to store information on the books, tv shows, movies, etc. that people have watched/read/listened to. This data will then be rendered on another page.
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 
 ### MVP/PostMVP
 
@@ -26,15 +39,16 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Create clickable buttons for user to add a book, movie, tv show, etc.
+- Create ability for user to review each of these individually and for this data to render to a second page
+- Allow user to navigate between pages 
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+-Create a to-read/watch list
+-Add images from APIs of the books/movies that will display
+-Use animations somehow?
 
 ## Project Schedule
 
@@ -44,32 +58,32 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+|Oct 7-8| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Oct 9| Project Approval | Incomplete
+|Oct 11| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Oct 13| Pseudocode / actual code | Incomplete
+|Oct 14| Initial Clickable Model  | Incomplete
+|Oct 15| MVP | Incomplete
+|Oct 16| Presentations | Incomplete
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Core application | H | 20 hrs| | |
+| Working with Airtable | H | 4 hrs|  | |
+| Styling with CSS/Flexbox | H | 12hrs|  |  |
+| Input Form | H | 3hrs| |  |
+| Troubleshooting components | H | 3hrs| |  |
+
+| Total | H | 42hrs| | |
 
 ## SWOT Analysis
 
-### Strengths:
+### Strengths: Pretty excited about my project and have a pretty good understanding of the features I want to include.
 
-### Weaknesses:
+### Weaknesses: Time Management, general feeling of uncertainty of understanding from the unit.
 
-### Opportunities:
+### Opportunities: Have a lot of learning/growth in terms of learning React as a whole and components. Excited to get more familiar with this! 
 
-### Threats:
+### Threats: Will need to stay focused, reach out for help when needed, and 
