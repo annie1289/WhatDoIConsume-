@@ -88,11 +88,11 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
-
+```
 -Create a to-read/watch list
 -Add images from APIs of the books/movies that will display
 -Use animations somehow?
-
+```
 ## Project Schedule
 
 This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
