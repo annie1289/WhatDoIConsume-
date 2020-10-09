@@ -35,6 +35,47 @@ Web Version -- https://www.canva.com/design/DAEKFRDkAiQ/share/preview?token=Jb4U
 ## API and Data Sample
 I will be using Airtable to store information on the books, tv shows, movies, etc. that people have watched/read/listened to. This data will then be rendered on another page.
 
+{
+    "records": [
+        {
+            "id": "recqX2KUDyi2MYdEi",
+            "fields": {
+                "Created": "2020-10-09T06:48:12.000Z",
+                "Name": "Are Prisons Obsolete?",
+                "Author": "Angela Davis",
+                "Rating": "5/5",
+                "Review": "Brilliant, jarring, things have not changed regarding the prison industrial complex and the atrocities that the US continues to commit against black a...",
+                "Genre": "Race"
+            },
+            "createdTime": "2020-10-09T06:48:12.000Z"
+        },
+        {
+            "id": "rec9newhC6bWHWfBN",
+            "fields": {
+                "Created": "2020-10-09T06:48:12.000Z",
+                "Name": "Trick Mirror",
+                "Genre": "Essays",
+                "Author": "Jia Tolentino",
+                "Rating": "5/5",
+                "Review": "Raw, brutally honest, Tolentino is a voice of our generation. "
+            },
+            "createdTime": "2020-10-09T06:48:12.000Z"
+        },
+        {
+            "id": "recB1aA1U13V8vKEq",
+            "fields": {
+                "Created": "2020-10-09T06:48:12.000Z",
+                "Name": "Hunger",
+                "Author": "Roxane Gay",
+                "Genre": "Memoir",
+                "Rating": "5/5",
+                "Review": "Made me want to cry,, taught me a lot,, was terribly honest and beautiful. Gay is a beautiful writer and an influential and controversial feminist who..."
+            },
+            "createdTime": "2020-10-09T06:48:12.000Z"
+        }
+    ],
+    "offset": "recB1aA1U13V8vKEq"
+}
 
 ### MVP/PostMVP
 
