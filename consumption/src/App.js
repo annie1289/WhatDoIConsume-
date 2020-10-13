@@ -1,24 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import axios from "axios";
+import { Route, Link } from "react-router-dom";
+import Homepage from "./Components/Homepage";
+import Form from "./Components/Form";
 
 function App() {
+
+  const [books, setBooks] = useState([]);
+
+  useEffect(() => {
+    const getBooks = async () => {
+      const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/Books`;
+      const response = await axios.get(airtableURL, {
+        headers: {
+          Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+        },
+      });
+      setBooks(response.data.records);
+      console.log(response.data.records);
+    };
+      getBooks();
+  }, []);
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <nav>
+        <Link to="/">Homepage</Link>
+        <Link to="/Components/History">History/Past Entries</Link>
+        <Link to="/Components/Todo-List">To Consume List</Link>
+        </nav>
+        <main>
+          <Route exact path="/">
+            <Form />
+            <button type="submit">Submit</button>
+      <Homepage name={"Consuming"}/>
+      </Route>
+        </main>   
+      </div>
     </div>
   );
 }
