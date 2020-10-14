@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
 import './App.css';
-import axios from "axios";
+import React from 'react';
 import { Route, Link } from "react-router-dom";
 import Homepage from "./Components/Homepage";
+import History from "./Components/History"
 
 function App() {
   
-  return (
+    return(
     <div className="App">
       <div>
         <nav>
@@ -17,6 +17,9 @@ function App() {
         <main>
           <Route exact path="/">
       <Homepage/>
+            </Route>
+            <Route exact path="/Components/History">
+      <History/>
       </Route>
         </main>   
       </div>
