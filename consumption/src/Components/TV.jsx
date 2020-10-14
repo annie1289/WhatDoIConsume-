@@ -1,25 +1,21 @@
-// dropdown form for each of the types of media using if values?, filter objects from a single table?
-
 import React, { useState } from "react";
 import axios from "axios";
 
-function Form(props) {
+function TV(props) {
   const [Name, setName] = useState("");
-  const [Author, setAuthor] = useState("");
-  const [Genre, setGenre] = useState("");
   const [Rating, setRating] = useState("");
   const [Review, setReview] = useState("");
+  const [Notes, setNotes] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     const fields = {
       Name,
-      Author,
-      Genre,
       Rating,
       Review,
+      Notes
     };
-    const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/Books`;
+    const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/TV`;
     await axios.post(
       airtableURL,
       { fields },
@@ -41,18 +37,6 @@ function Form(props) {
         value={Name}
         onChange={(e) => setName(e.target.value)}
       />
-      <label htmlFor="">Author</label>
-      <input
-        type="text"
-        value={Author}
-        onChange={(e) => setAuthor(e.target.value)}
-      />
-      <label htmlFor="">Genre</label>
-      <input
-        type="text"
-        value={Genre}
-        onChange={(e) => setGenre(e.target.value)}
-      />
       <label htmlFor="">Rating</label>
       <input
         type="text"
@@ -65,9 +49,15 @@ function Form(props) {
         value={Review}
         onChange={(e) => setReview(e.target.value)}
       />
+        <label htmlFor="">Notes</label>
+      <input
+        type="text"
+        value={Notes}
+        onChange={(e) => setReview(e.target.value)}
+      />
       <button type="submit">Submit</button>
     </form>
   );
 }
 
-export default Form;
+export default TV;
