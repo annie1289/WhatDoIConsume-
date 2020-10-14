@@ -30,6 +30,8 @@ function Form(props) {
       }
     );
   };
+  
+  
 
   return (
     <form onSubmit={handleSubmit}>
@@ -51,13 +53,13 @@ function Form(props) {
         value={Genre}
         onChange={(e) => setGenre(e.target.value)}
       />
-         <label htmlFor="">Rating</label>
+      <label htmlFor="">Rating</label>
       <input
         type="text"
         value={Rating}
         onChange={(e) => setRating(e.target.value)}
       />
-         <label htmlFor="">Review</label>
+      <label htmlFor="">Review</label>
       <input
         type="text"
         value={Review}

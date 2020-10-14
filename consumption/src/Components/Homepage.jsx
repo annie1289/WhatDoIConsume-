@@ -1,10 +1,14 @@
 import React from "react";
+import Toggle from "./Toggle"
 
 function Homepage(props) {
   return (
-    <h1>What Have I been {props.name}? </h1>
-    );
-
+    <div>
+      <h1>What Have I been Consuming? </h1>
+      <Toggle/>
+    </div>
+  );
+  
 }
 
 export default Homepage;
