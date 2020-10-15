@@ -1,9 +1,10 @@
 import React from "react";
-import Toggle from "./Toggle"
+import Toggle from "./Toggle";
+import "/Users/anniewang/General_Assembly/phoenix/unit_2/WhatDoIConsume-/consumption/src/App.css"
 
 function Homepage(props) {
   return (
-    <div>
+    <div className = "home">
       <h1>What Have I been Consuming? </h1>
       <Toggle/>
     </div>

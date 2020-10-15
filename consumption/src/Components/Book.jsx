@@ -30,8 +30,6 @@ function Book(props) {
       }
     );
   };
-  
-  
 
   return (
     <form onSubmit={handleSubmit}>

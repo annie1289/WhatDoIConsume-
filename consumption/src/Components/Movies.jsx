@@ -53,7 +53,7 @@ function Movies(props) {
       <input
         type="text"
         value={Notes}
-        onChange={(e) => setReview(e.target.value)}
+        onChange={(e) => setNotes(e.target.value)}
       />
       <button type="submit">Submit</button>
     </form>
