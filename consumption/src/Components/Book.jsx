@@ -1,5 +1,3 @@
-// dropdown form for each of the types of media using if values?, filter objects from a single table?
-
 import React, { useState } from "react";
 import axios from "axios";
 
@@ -29,6 +27,11 @@ function Book(props) {
         },
       }
     );
+    setName("")
+    setAuthor("")
+    setGenre("")
+    setRating("")
+    setReview("")
   };
 
   return (
@@ -50,18 +53,21 @@ function Book(props) {
         type="text"
         value={Genre}
         onChange={(e) => setGenre(e.target.value)}
+       
       />
       <label htmlFor="">Rating</label>
       <input
         type="text"
         value={Rating}
         onChange={(e) => setRating(e.target.value)}
+        
       />
       <label htmlFor="">Review</label>
       <input
         type="text"
         value={Review}
         onChange={(e) => setReview(e.target.value)}
+      
       />
       <button type="submit">Submit</button>
     </form>

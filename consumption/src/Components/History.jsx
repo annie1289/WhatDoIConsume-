@@ -19,7 +19,6 @@ class History extends Component {
         Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
       },
     });
-    console.log(response.data.records);
     const bookList = response.data.records;
     this.setState({ books: bookList });
     
@@ -32,7 +31,6 @@ class History extends Component {
         Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
       },
     });
-    console.log(response.data.records);
     const showList = response.data.records;
     this.setState({ shows: showList });
     
@@ -46,7 +44,6 @@ class History extends Component {
         Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
       },
     });
-    console.log(response.data.records);
     const movieList = response.data.records;
     this.setState({ movies: movieList });
     
@@ -59,7 +56,6 @@ class History extends Component {
         Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
       },
     });
-    console.log(response.data.records);
     const songList = response.data.records;
     this.setState({ songs: songList });
     
@@ -82,7 +78,7 @@ class History extends Component {
         <h1>Books I've Read</h1>
         <ul>
           {books.map((book, index) => (
-            <li key={index}>
+            <li key={index} className="booksList">
               Book Name: {book.fields.Name} <br/>
               Author: {book.fields.Author} <br />
               Genre: {book.fields.Genre} <br />

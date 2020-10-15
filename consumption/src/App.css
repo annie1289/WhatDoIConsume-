@@ -1,9 +1,43 @@
-.container{
-  display: flex;
-  justify-content: space-between;
-}
-
-.home{
+/* 90F1EF  */
+/* FFD6E0 */
+/* FFEF9F */
+/* C1FBA4 */
+/* 7BF1A8 */
+.App{
+  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
   background-image: url(https://thumbs.gfycat.com/FancyFoolhardyKestrel-small.gif);
 
 }
+.booksList{
+border: 1px solid black;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.home{
+  font-family: 'Monoton', cursive;
+  color: white;
+}
+
+nav {
+  padding: 5px;
+  max-width: 400px;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/* grid-gap: 10px */

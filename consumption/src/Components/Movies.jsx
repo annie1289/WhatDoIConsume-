@@ -25,6 +25,10 @@ function Movies(props) {
         },
       }
     );
+    setName("")
+    setRating("")
+    setReview("")
+    setNotes("")
   };
   
   

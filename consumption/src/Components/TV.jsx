@@ -25,6 +25,10 @@ function TV(props) {
         },
       }
     );
+    setName("")
+    setRating("")
+    setReview("")
+    setNotes("")
   };
   
   

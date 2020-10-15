@@ -21,6 +21,8 @@ function Songs(props) {
         },
       }
     );
+    setName("")
+    setArtist("")
   };
   
   

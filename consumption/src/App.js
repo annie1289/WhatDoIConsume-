@@ -8,12 +8,10 @@ function App() {
   
     return(
     <div className="App">
-      <div>
         <nav>
         <Link to="/">Homepage</Link>
         <Link to="/Components/History">History/Past Entries</Link>
-        {/* <Link to="/Components/Todo-List">To Consume List</Link> */}
-        </nav>
+          </nav>
         <main>
           <Route exact path="/">
       <Homepage/>
@@ -23,7 +21,7 @@ function App() {
       </Route>
         </main>   
       </div>
-    </div>
+  
   );
 }
 
