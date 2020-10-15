@@ -83,11 +83,11 @@ class History extends Component {
         <ul>
           {books.map((book, index) => (
             <li key={index}>
-              {book.fields.Name} <br/>
-              {book.fields.Author} <br />
-              {book.fields.Genre} <br />
-              {book.fields.Rating} <br />
-              {book.fields.Review} 
+              Book Name: {book.fields.Name} <br/>
+              Author: {book.fields.Author} <br />
+              Genre: {book.fields.Genre} <br />
+              Rating: {book.fields.Rating} <br />
+              Review: {book.fields.Review} 
           </li>
         ))}
         </ul>
@@ -96,10 +96,10 @@ class History extends Component {
         <ul>
           {movies.map((movie, index) => (
             <li key={index}>
-              {movie.fields.Name} <br/>
-              {movie.fields.Rating} <br />
-              {movie.fields.Review} <br />
-              {movie.fields.Notes} 
+              Movie Name: {movie.fields.Name} <br/>
+              Rating: {movie.fields.Rating} <br />
+              Review: {movie.fields.Review} <br />
+              Notes: {movie.fields.Notes} 
           </li>
         ))}
         </ul>
@@ -109,10 +109,10 @@ class History extends Component {
         <ul>
           {shows.map((show, index) => (
             <li key={index}>
-              {show.fields.Name} <br/>
-              {show.fields.Rating} <br />
-              {show.fields.Review} <br />
-              {show.fields.Notes} 
+              Show Name: {show.fields.Name} <br/>
+              Rating: {show.fields.Rating} <br />
+              Review: {show.fields.Review} <br />
+              Notes: {show.fields.Notes} 
           </li>
         ))}
         </ul>  
@@ -122,8 +122,8 @@ class History extends Component {
         <ul>
           {songs.map((song, index) => (
             <li key={index}>
-              {song.fields.Name} <br/>
-              {song.fields.Artist} 
+              Song Name: {song.fields.Name} <br/>
+              Artist: {song.fields.Artist} 
           </li>
         ))}
         </ul>

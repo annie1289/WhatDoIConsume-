@@ -40,10 +40,10 @@ class Toggle extends Component {
         <label htmlFor="Media-type">Add Something! 
         <select onClick={this.toggleHidden} name="Media-type" id="media">
           <option value = "blank">Select a Media Type</option>
-          <option onClick={<Book/>} value="books">Add a Book</option>
-          <option onClick={<TV/>} value ="shows">Add a TV Show</option>
-          <option onClick={<Movies/>} value = "movies">Add a Movie</option>
-          <option onClick={<Songs/>} value = "songs">Add a Song</option>
+          <option value="books">Add a Book</option>
+          <option value ="shows">Add a TV Show</option>
+          <option value = "movies">Add a Movie</option>
+          <option value = "songs">Add a Song</option>
           </select>
           </label>
         <div>
