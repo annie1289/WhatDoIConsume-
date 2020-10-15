@@ -89,9 +89,9 @@ class History extends Component {
         </ul>
         <h1>Movies I've Watched</h1>
         <div>
-        <ul>
+        <ul className = "movies">
           {movies.map((movie, index) => (
-            <li key={index}>
+            <li key={index} className = "moviesList">
               Movie Name: {movie.fields.Name} <br/>
               Rating: {movie.fields.Rating} <br />
               Review: {movie.fields.Review} <br />
@@ -104,7 +104,7 @@ class History extends Component {
         <div>
         <ul>
           {shows.map((show, index) => (
-            <li key={index}>
+            <li key={index} className = "showsList">
               Show Name: {show.fields.Name} <br/>
               Rating: {show.fields.Rating} <br />
               Review: {show.fields.Review} <br />
@@ -117,7 +117,7 @@ class History extends Component {
         <div>
         <ul>
           {songs.map((song, index) => (
-            <li key={index}>
+            <li key={index} className = "songsList">
               Song Name: {song.fields.Name} <br/>
               Artist: {song.fields.Artist} 
           </li>

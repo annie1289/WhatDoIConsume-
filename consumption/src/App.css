@@ -36,8 +36,14 @@ nav {
 
 li{
   list-style-type: none;
+  padding: 20px;
+  display: block;
+
+}
+ul{
   display: flex;
   flex-direction: column;
+  display: block;
 }
 
 /* grid-gap: 10px */
