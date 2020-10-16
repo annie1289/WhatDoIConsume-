@@ -34,7 +34,7 @@ class Toggle extends Component {
     return (
       <div>
         <label htmlFor="Media-type">
-          Add Something!
+          Add Something:     
           <select onChange={this.toggleHidden} name="Media-type" id="media">
             <option value="blank">Select a Media Type</option>
             <option value="books">Add a Book</option>

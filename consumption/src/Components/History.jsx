@@ -79,11 +79,11 @@ class History extends Component {
         <ul>
           {books.map((book, index) => (
             <li key={index} className="booksList">
-              Book Name: {book.fields.Name} <br/>
-              Author: {book.fields.Author} <br />
-              Genre: {book.fields.Genre} <br />
-              Rating: {book.fields.Rating} <br />
-              Review: {book.fields.Review} 
+              <b>Book Name:</b> {book.fields.Name} <br/>
+              <b>Author:</b> {book.fields.Author} <br />
+              <b>Genre: </b>{book.fields.Genre} <br />
+              <b> Rating:</b> {book.fields.Rating} <br />
+              <b>Review:</b> {book.fields.Review} 
           </li>
         ))}
         </ul>
@@ -92,10 +92,10 @@ class History extends Component {
         <ul className = "movies">
           {movies.map((movie, index) => (
             <li key={index} className = "moviesList">
-              Movie Name: {movie.fields.Name} <br/>
-              Rating: {movie.fields.Rating} <br />
-              Review: {movie.fields.Review} <br />
-              Notes: {movie.fields.Notes} 
+              <b>Movie Name:</b> {movie.fields.Name} <br/>
+              <b>Rating:</b> {movie.fields.Rating} <br />
+              <b>Review:</b> {movie.fields.Review} <br />
+              <b>Notes: </b>{movie.fields.Notes} 
           </li>
         ))}
         </ul>
@@ -105,10 +105,10 @@ class History extends Component {
         <ul>
           {shows.map((show, index) => (
             <li key={index} className = "showsList">
-              Show Name: {show.fields.Name} <br/>
-              Rating: {show.fields.Rating} <br />
-              Review: {show.fields.Review} <br />
-              Notes: {show.fields.Notes} 
+              <b>Show Name:</b> {show.fields.Name} <br/>
+              <b>Rating:</b> {show.fields.Rating} <br />
+              <b>Review:</b> {show.fields.Review} <br />
+              <b>Notes:</b> {show.fields.Notes} 
           </li>
         ))}
         </ul>  
@@ -118,8 +118,8 @@ class History extends Component {
         <ul>
           {songs.map((song, index) => (
             <li key={index} className = "songsList">
-              Song Name: {song.fields.Name} <br/>
-              Artist: {song.fields.Artist} 
+              <b>Song Name:</b> {song.fields.Name} <br/>
+              <b>Artist:</b> {song.fields.Artist} 
           </li>
         ))}
         </ul>

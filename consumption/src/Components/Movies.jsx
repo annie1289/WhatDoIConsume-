@@ -34,7 +34,7 @@ function Movies(props) {
   
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className= "movieForm" onSubmit={handleSubmit}>
       <label htmlFor="">Name</label>
       <input
         type="text"
@@ -59,7 +59,7 @@ function Movies(props) {
         value={Notes}
         onChange={(e) => setNotes(e.target.value)}
       />
-      <button type="submit">Submit</button>
+      <button id ="movieSubmit" type="submit">Submit</button>
     </form>
   );
 }

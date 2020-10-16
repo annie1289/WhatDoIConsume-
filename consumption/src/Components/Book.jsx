@@ -35,7 +35,7 @@ function Book(props) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className = "bookForm" onSubmit={handleSubmit}>
       <label htmlFor="">Name</label>
       <input
         type="text"
@@ -69,7 +69,7 @@ function Book(props) {
         onChange={(e) => setReview(e.target.value)}
       
       />
-      <button type="submit">Submit</button>
+      <button id ="bookSubmit" type="submit">Submit</button>
     </form>
   );
 }

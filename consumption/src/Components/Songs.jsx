@@ -28,7 +28,7 @@ function Songs(props) {
   
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className= "songForm" onSubmit={handleSubmit}>
       <label htmlFor="">Name</label>
       <input
         type="text"
@@ -41,7 +41,7 @@ function Songs(props) {
         value={Artist}
         onChange={(e) => setArtist(e.target.value)}
       />
-      <button type="submit">Submit</button>
+      <button id ="songSubmit"type="submit">Submit</button>
     </form>
   );
 }

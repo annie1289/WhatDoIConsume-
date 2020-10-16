@@ -1,49 +1,152 @@
-/* 90F1EF  */
-/* FFD6E0 */
-/* FFEF9F */
-/* C1FBA4 */
-/* 7BF1A8 */
 .App{
-  min-height: 100vh;
+  text-align: center;
+  font-family: 'Monoton', bold;
+}
+.home{
+  background-image: url(https://cdn.lowgif.com/full/0465e1941bc19e45-making-a-game-with-javascript-part-1-hacker-noon.gif);
   width: 100vw;
   height: 100vh;
-  text-align: center;
-  background-image: url(https://thumbs.gfycat.com/FancyFoolhardyKestrel-small.gif);
+}
+li{
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 
 }
 .booksList{
 border: 1px solid black;
-}
-.container{
-  display: flex;
-  justify-content: space-between;
-  
+background-color: #90F1EF;
 }
 
+.moviesList{
+  border: 1px solid black;
+  background-color: #FFD6E0;
+  }
+
+.songsList{
+    border: 1px solid black;
+    background-color: #FFEF9F;
+    }
+.showsList{
+    border: 1px solid black;
+    background-color: #C1FBA4;
+    }
+  
+
+img{
+  border-radius: 50%;
+}
+
+.title{
+  padding-top: 50px;
+  color: #396b20;
+  font-size: 50px;
+}
+
+.Form{
+  font-size: 25px;
+}
+
+#media{
+font-size: 20px;
+background-color: #90F1EF;
+}
 .home{
-  font-family: 'Monoton', cursive;
-  color: white;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 nav {
-  padding: 5px;
-  max-width: 400px;
-  margin: 5px 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-
-li{
-  list-style-type: none;
-  padding: 20px;
-  display: block;
+  justify-content: center;
+  background-color: #FFD6E0;
 
 }
-ul{
+.homeIcon{
+  margin-right: 50px;
+}
+
+.bookForm{
+  font-size: 30px;
   display: flex;
   flex-direction: column;
-  display: block;
+  max-width: 200px;
+  justify-content: space-evenly;
+  border: 10px double #FFEF9F;
+  margin: auto;
+  margin-top: 50px;
 }
 
-/* grid-gap: 10px */
+.movieForm{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  justify-content: space-evenly;
+  border: 10px double #FFEF9F;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.showForm{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  justify-content: space-evenly;
+  border: 10px double #FFEF9F;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.songForm{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  justify-content: space-evenly;
+  border: 10px double #FFEF9F;
+  margin: auto;
+  margin-top: 10px;
+}
+#bookSubmit{
+margin: 20px;
+}
+#songSubmit{
+  margin: 20px;
+}
+#movieSubmit{
+  margin: 20px;
+}
+#showSubmit{
+  margin: 20px;
+}
+
+@media (min-width:750px) {
+  .booksList{
+    font-size: 50px;
+  }
+  .moviesList{
+    font-size: 50px;
+  }
+  .showsList{
+    font-size: 50px;
+  }
+  .songsList{
+    font-size: 50px;
+  }
+}
+@media (min-width:1000px) {
+.App{
+  width: 50vw;
+  height: 50vh;
+} 
+.home{
+  width: 50vw;
+  height: 50vh;
+}
+
+}

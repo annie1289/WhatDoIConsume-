@@ -34,7 +34,7 @@ function TV(props) {
   
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className= "showForm" onSubmit={handleSubmit}>
       <label htmlFor="">Name</label>
       <input
         type="text"
@@ -59,7 +59,7 @@ function TV(props) {
         value={Notes}
         onChange={(e) => setNotes(e.target.value)}
       />
-      <button type="submit">Submit</button>
+      <button id ="showSubmit" type="submit">Submit</button>
     </form>
   );
 }
