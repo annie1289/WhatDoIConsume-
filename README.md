@@ -6,7 +6,7 @@ What Do I Consume?
 
 ## Project Description
 
-My project is a tracker of your media habits. How many books did you read this year and what was your most popular genre of books? Forget what that tv show you watched 4 months ago and loved was called? The What Do I Consume app will track all of this. You can add entries for all these different types of media that you have consumed and also add to a list of to-read/to-watch/to-listen to keep track of what you still want to look at.
+My project is a tracker of your media habits. How many books did you read this year and what was your most popular genre of books? Forget what that tv show you watched 4 months ago and loved was called? The What Do I Consume app will track all of this. You can add entries for all these different types of media that you have consumed.
 
 ## Wireframes
 
@@ -100,25 +100,25 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Oct 7-8| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Oct 9| Project Approval | Incomplete
-|Oct 11| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Oct 13| Pseudocode / actual code | Incomplete
-|Oct 14| Initial Clickable Model  | Incomplete
-|Oct 15| MVP | Incomplete
+|Oct 7-8| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|Oct 9| Project Approval | Complete
+|Oct 11| Core Application Structure (HTML, CSS, etc.) | Complete
+|Oct 13| Pseudocode / actual code | Complete
+|Oct 14| Initial Clickable Model  | Complete
+|Oct 15| MVP | Complete
 |Oct 16| Presentations | Incomplete
 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Core application | H | 20 hrs| | |
-| Working with Airtable | H | 4 hrs|  | |
-| Styling with CSS/Flexbox | H | 12hrs|  |  |
-| Input Form | H | 3hrs| |  |
-| Troubleshooting components | H | 3hrs| |  |
+| Core application | H | 20 hrs| 15| |
+| Working with Airtable | H | 4 hrs|5| |
+| Styling with CSS/Flexbox | H | 12hrs|10  |  |
+| Input Form | H | 3hrs|5 |  |
+| Troubleshooting components | H | 3hrs| 0|  |
 
-| Total | H | 42hrs| | |
+| Total | H | 42hrs|36 | |
 
 ## SWOT Analysis
 
