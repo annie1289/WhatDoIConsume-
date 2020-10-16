@@ -3,7 +3,7 @@ import React from 'react';
 import { Route, Link } from "react-router-dom";
 import Homepage from "./Components/Homepage";
 import History from "./Components/History"
-import Home from "/Users/anniewang/General_Assembly/phoenix/unit_2/WhatDoIConsume-/consumption/src/Components/home.jpg"
+import Home from "/Users/anniewang/General_Assembly/phoenix/unit_2/WhatDoIConsume-/consumption/src/img/home.jpg"
 import Past from "/Users/anniewang/General_Assembly/phoenix/unit_2/WhatDoIConsume-/consumption/src/img/history-50x50.png"
 function App() {
   
